@@ -18,6 +18,9 @@ The BibTeX entry for the paper is:
 			year = {2018}  
 	}
 
+##  TODO
+
+SuMa uses OpenGL to speed up computation, which means that SuMa need a opengl context while it running. The basic idea is using rviz plugin tool to create a opengl context for SuMa and grabbing laser scan data by subscribing laser topic .
 
 ##  Dependencies
 
